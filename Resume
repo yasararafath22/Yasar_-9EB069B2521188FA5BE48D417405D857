@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasar Arafath's Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: right;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+            margin-top: 10px;
+            background: #fff;
+            border: 1px solid #ccc;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 10px;
+            color: #fff;
+            background-color: #50b3a2;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Yasar Arafath</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container">
+        <h2>About Me</h2>
+        <p>I am Yasar Arafath, a student at MIET Arts and Science College. I am proficient in HTML, JavaScript, CSS, and database management. I am currently pursuing a Bachelor of Computer Applications (BCA).</p>
+
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>JavaScript</li>
+            <li>CSS</li>
+            <li>Database Management</li>
+        </ul>
+
+        <h2>Contact Information</h2>
+        <p>Address: 6/1082/1 Malakapalli Street, Thirupoondi, 611110, Nagai Dist</p>
+        <p>Phone: 9344491716</p>
+        <p>Email: <a href="mailto:yasartpi006@gmail.com">yasartpi006@gmail.com</a></p>
+
+        <h2>Languages</h2>
+        <p>Tamil, English</p>
+    </section>
+
+    <footer>
+        <p>Yasar Arafath &copy; 2024</p>
+    </footer>
+</body>
+</html>
